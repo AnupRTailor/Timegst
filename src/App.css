@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whitecolorDeam : hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.section{
+  padding: 4rem 6 2rem; 
+}
+.container{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.grid{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  padding: .6rem 1.5rem;
+  background: pink;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn a{
+  color: black;
+  font-weight: 500;
+}
+.btn:hover{
+  background: pink;
+}
+img, video{
+  width: 100;
+  height: auto;
+}
+input{
+  font-size: 100;
+}
+body{
+  background: white;
+}

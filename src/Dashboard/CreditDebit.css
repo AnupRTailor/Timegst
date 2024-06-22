@@ -1,0 +1,193 @@
+.transaction-form1 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    overflow-x: auto;
+    margin-left:260px;
+}
+
+.form-group1 {
+    flex: 1;
+    min-width: 150px;
+}
+
+.form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-controlcd {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.credits-debits-container {
+    padding: 20px;
+    margin-left: 260px;
+    margin-top : 50px;
+}
+
+.headercd {
+    margin-top : -80px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.credit-total {
+    display: flex;
+    align-items: center;
+    background-color: #dff0d8;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.debit-total {
+    display: flex;
+    align-items: center;
+    background-color: #f2dede;
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.net-balance {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    background-color: #fcf8e3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.iconcd1 {
+    margin-right: 10px;
+    color: green;
+    font-size: 22px;
+}
+
+
+.iconcd2 {
+    margin-right: 10px;
+    color: #f57a7a;
+    font-size: 22px;
+}
+
+
+.iconcd3 {
+    margin-right: 10px;
+    color: #f7de53;
+    font-size: 22px;
+}
+
+.icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f7de53;
+    color: white;
+    margin-right: 10px;
+}
+
+.labelcd, .valuecd {
+    margin-left: 5px;
+}
+
+
+.containercd {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .tablecd {
+    margin-left: 160px;
+    width: 95%;
+    border-collapse: collapse;
+  }
+  
+  .tablecd-th, .tablecd-td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tablecd-th {
+    color: #333;
+  }
+    
+  .tablecd-th, .tablecd-td {
+    padding: 15px;
+  }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .transaction-form1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form-group1 {
+        min-width: 200px;
+    }
+
+    .totals {
+        flex-direction: column;
+    }
+
+ 
+}
+
+@media (max-width: 576px) {
+    .transaction-form1 {
+        padding: 10px;
+    }
+
+    .form-group1 {
+        min-width: 100%;
+    }
+
+    .form-controlcd {
+        font-size: 14px;
+    }
+
+    .credits-debits-container {
+        padding: 10px;
+    }
+
+    .headercd {
+        font-size: 20px;
+    }
+
+    .iconcd , .labelcd, .valuecd {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+   
+}

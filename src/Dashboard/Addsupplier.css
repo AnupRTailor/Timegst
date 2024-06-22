@@ -1,0 +1,82 @@
+.add-supplier-form {
+    width: 82%;
+    margin-left: 260px;
+    margin-bottom: 100px;
+}
+
+.add-supplier-form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] , #status{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button[type="submit"] {
+    background-color: #2a3042;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #337ab7;
+}
+
+.error-message1 {
+    color: red;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.button-group1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.back-button1 {
+    background-color: #F39C0E;
+    border-radius: 3px;
+    border-color: #e08e0b;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.back-button1:hover {
+    background-color: #e08e0b;
+    border-color: #eea236;
+}
+
+.custom-heading1 {
+    color: #495057;
+  }
+  
+
+@media (max-width: 768px) {
+    .add-supplier-form {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .add-supplier-form {
+        max-width: 300px;
+    }
+}

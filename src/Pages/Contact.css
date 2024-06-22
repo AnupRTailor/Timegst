@@ -1,0 +1,148 @@
+.Con1{
+    font-size : 16px;
+    color: #6f6c7f;
+    margin-top: 80px;
+    line-height:36px;
+    font-weight: 400;
+}
+.Con2{
+    font-size: 40px;
+    color : #36324a;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 55px;
+}
+.Con3{
+    color : #6f6c7f;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size : 18px;
+    margin-top:0;
+}
+.name,.email1,.mobile,.subject,.captcha{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    color: #6f6c7f;
+    line-height: 36px;
+    font-weight: 400;
+}
+.name1,.email2,.mobile1,.subject1{
+    height : 45px;
+    font-size: 14px;
+    display: block;
+    margin-top: -50px;
+    width : 35%;
+    line-height : 1.5;
+    margin-left: 150px;
+    color:#495057;
+    background: #fff;
+    border : 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.name1:focus,.email2:focus,.mobile1:focus,.subject1:focus,.message1:focus{
+    border-color: #007bff;
+    padding : .375rem .75rem;
+    border-radius: 0.25rem;
+    outline: 0;
+}
+.message{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    color: #6f6c7f;
+    line-height: 36px;
+    font-weight: 400;
+}
+.message1{
+    height : 90px;
+    font-size: 14px;
+    display: block;
+    margin-top: -50px;
+    width : 35%;
+    line-height : 1.5;
+    margin-left: 150px;
+    color:#495057;
+    background: #fff;
+    border : 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.recaptcha{
+    margin-left : 150px;
+    margin-top: -35px;
+}
+.con4{
+    margin-top: 20px;
+    margin-bottom: -250px;
+}
+.logoDiv3{
+    width :0%;
+    margin-bottom: -200px;
+    margin-top: -550px;
+    margin-left: 650px;
+}
+
+
+@media (max-width: 992px) {
+    .Con1{
+        font-size : 16px;
+        color: #6f6c7f;
+        margin-top: 450px;
+        line-height:36px;
+        font-weight: 400;
+    }
+    .name1,
+    .email2,
+    .mobile1,
+    .subject1,
+    .message1 {
+        width: 50%;
+        margin-left: 100px;
+    }
+    .recaptcha {
+        margin-left: 100px;
+    }
+    .logoDiv3 {
+        margin-top: -450px;
+        margin-left: 400px;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    .name1,
+    .email2,
+    .mobile1,
+    .subject1,
+    .message1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    .recaptcha {
+        margin-left: 20px;
+    }
+    .logoDiv3 {
+        margin-top: -350px;
+        margin-left: 50px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 360px) {
+    .name1,
+    .email2,
+    .mobile1,
+    .subject1,
+    .message1 {
+        width: 90%;
+        margin-left: 10px;
+    }
+    .recaptcha {
+        margin-left: 10px;
+    }
+    .logoDiv3 {
+        margin-top: -300px;
+        margin-left: 10px;
+    }
+}

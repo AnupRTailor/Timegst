@@ -1,0 +1,293 @@
+.price1{
+    margin-top: 100px;
+    border-radius: .25rem;
+    border: 1px solid #dee2e6;
+    padding: 1.5 rem;
+}
+.price2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #6f6c7f;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.price3{
+    width: 40%;
+    margin-top: 10px;
+    border-radius: .25rem;
+    border: 1px solid #dee2e6;
+    padding: 1.5 rem;
+}
+.price4{
+    margin-top: 50px;
+    margin-left: -10px;
+    color: #36324a;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 30px;
+}
+.price5 {
+    margin-top: 30px;
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.price6{
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.price7 {
+    margin-left: 250px;
+    margin-top: -125px;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: top;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.price8 {
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.price9 {
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.price10 {
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    color : rgba(var(--bs-black-rgb),var(--bs-text-opacity))!important;
+}
+.company_name,
+.first_name, 
+.last_name,
+.email, 
+.phone{
+    height: 45px;
+    font-size: 14px;
+    display: block;
+    padding: .375rem .75rem;
+    width: 100%;
+    line-height: 1.50;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.order_notes{
+    height: 100px;
+    font-size: 14px;
+    display: block;
+    padding: .375rem .75rem;
+    width: 100%;
+    line-height: 1.50;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.first_name{
+    width: 230px;
+}
+.last_name{
+    margin-left: 250px;
+    margin-top: -117px;
+    width: 210px;
+}
+.company_name:focus,
+.first_name:focus,
+.last_name:focus,
+.email:focus,
+.phone:focus,
+.coupon_code:focus {
+    border-color: blue; 
+    outline: 0; 
+}
+.text-danger.d1 {
+    color: red;
+    vertical-align: top;
+    display: inline-block;
+    margin-top : -125px;
+}
+.price11{
+    width: auto;
+    margin-left: 635px;
+    margin-top: -780px;
+    color: #36324a;
+}
+.price12{
+    width: 40%;
+    height : 200px;
+    margin-left: 650px;
+    margin-top: -700px;
+    border-radius: .25rem;
+    border: 1px solid #dee2e6;
+    padding: 1.5 rem;
+}
+.price13{
+    margin-top: 50px;
+    margin-bottom: -10px;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.price14{
+    width: auto;
+    margin-left: 635px;
+    margin-top: -450px;
+    color: #36324a;
+}
+.price15{
+    width: 40%;
+    margin-top: -400px;
+    margin-left: 645px;
+    border-radius: .25rem;
+    border: 1px solid #dee2e6;
+    padding: 1.5 rem;
+}
+.price16{
+    margin-top: 50px;
+    margin-left: 60px;
+    line-height: 1.5;
+    width: 80%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid white; 
+    border-right: 1px solid white;
+    background-color: transparent;
+}
+th {
+    background-color: white;
+    border-top: 1px solid #dee2e6; 
+    border-bottom: 1px solid #dee2e6; 
+    padding: 8px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+}
+td {
+    border-top: 1px solid #dee2e6; 
+    border-bottom: 1px solid #dee2e6; 
+    padding: 8px;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: left;
+}
+.price17{
+    font-weight: bold;
+}
+.price18{
+    font-size : 16px;
+    color : #6f6c7f;
+    line-height: 36px;
+    font-weight: 400;
+}
+.price19{
+    margin-top: -25px;
+    margin-left: 25px;
+    font-size : 16px;
+    color : #6f6c7f;
+    line-height: 36px;
+    font-weight: 400;
+}
+.coupon_code{
+    height: 45px;
+    font-size: 14px;
+    display: block;
+    padding: .375rem .75rem;
+    width: 50%;
+    line-height: 1.50;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.apply{
+    cursor: pointer;
+    border-radius: .25rem;
+    width: 80px;
+    color: #fff;
+    background-color : #7971ea;
+    border : 1px;
+    border-radius: 1px solid #7971ea;
+}
+.apply:hover{
+    cursor: pointer;
+    border-radius: .25rem;
+    width: 80px;
+    color: #fff;
+    background-color : blue;
+    border : 1px;
+    border-radius: 1px solid blue;
+    transition: .3s all linear;
+}
+.accordion1 {
+    width: 385px;
+    margin-top: 25px;
+    margin-left: 65px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+.accordion-header1 {
+    width : auto;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size : 16px;
+    padding: 10px;
+    cursor: pointer;
+}  
+.accordion-header1:hover {
+    background-color: #7971ea;
+    color : white;
+}  
+.accordion-content1 {
+    display: block;
+    padding: 10px;
+}  
+.active1 {
+    display: none;
+}
+.place-order-btn {
+    width: 390px;
+    height: 60px;
+    margin-left: 60px;
+    font-size : 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: #7971ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.place-order-btn:hover {
+    background-color: blue;
+}

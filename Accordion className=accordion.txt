@@ -1,0 +1,159 @@
+ <Accordion className="accordion">
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header className="accordion-header">Q. What kind of businesses can use TimeGST for accounting?  </Accordion.Header> 
+                      <Accordion.Body className="accordion-content">
+                      TimeGST is a business accounting application to manage your business digitally. It can be used for any small and micro scale businesses. All kinds of retail, wholesale, distributorship business can use TimeGST to manage their businesses hassle-free.
+                      </Accordion.Body>
+                  </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header className = "accordion-header">Q. I'm a Manufacturer. Can I use TimeGST?   </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, manufacturing business can use TimeGST to manage their business
+                  </Accordion.Body>
+                </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header className = "accordion-header">Q. Do you implement customised requirement?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, We Provide This feature
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header className = "accordion-header">Q. Is Vyapar Cloud/Web-based?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, TimeGST is Cloud and Web based software.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header className = "accordion-header">Q. How do I get support?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Please contact us at <br/> 9428147709 -For Any Queries
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header className = "accordion-header">Q. Can I upload Tally data into TimeGST?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, We Provide This feature
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6">
+                <Accordion.Header className = "accordion-header">Q. Can I export TimeGST data into tally?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, We Provide This features
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7">
+                <Accordion.Header className = "accordion-header">Q. Can I backup TimeGST data?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, We Provide This feature
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="8">
+                <Accordion.Header className = "accordion-header">Q. How to see previous year data?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  A backup of your previous year data will be created in your device/google-drive at the time of closing book. Restore that file to your TimeGST to see your previous year data.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="9">
+                <Accordion.Header className = "accordion-header">Q. How to become a partner of TimeGST? Link partner with  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Visit our ""Channel Partner"" Page to find out about our Partner program >> <a href="">Click Here</a>
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="10">
+                <Accordion.Header className = "accordion-header">Q. Should I pay registration charges to become a Partner?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  No, There is no registration fees to become a Partner of TimeGST
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="11">
+                <Accordion.Header className = "accordion-header">Q. Do you provide training for a Partner?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, we provide online training to our Partner. Also, any business/technical queries will be answered by us even later on.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="12">
+                <Accordion.Header className = "accordion-header">Q. What are the modes of payment for purchasing TimeGST?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  We accept online payments through credit/debit card, netbanking, and wallets such as Freecharge, PayZapp, Airtel Money, Ola Money, PhonePe, YesPay etc.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="13">
+                <Accordion.Header className = "accordion-header">Q. Where can I find the pricing detials?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  You can either visit our website <a href="/#Pricing">Click Here</a>
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="14">
+                <Accordion.Header className = "accordion-header">Q. What are the charges for TimeGST?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  TimeGST has a price attached. <a href="/#Pricing">Click Here</a> <br/>
+                  View all plans here  <br/> TimeGST has a 15-day free trial.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="15">
+                <Accordion.Header className = "accordion-header">Q. What is my expected profit margin? For partner  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  For margin and related queries contact 9428147709.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="16">
+                <Accordion.Header className = "accordion-header">Q. Can I access the same TimeGST account from any devices?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="17">
+                <Accordion.Header className = "accordion-header">Q. How can I manage user permission?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  You can enable user-role permission from settings.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="18">
+                <Accordion.Header className = "accordion-header">Q. Can I export party details from existing company to new company in TimeGST?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, You can by exporting all party reports from reports section & then go to the new companies utitity & download sample file & make sure your party details are fed based on the sample file and select the new file and restore it.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="19">
+                <Accordion.Header className = "accordion-header">Q. How to generate pdf of outstanding bills?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  You can generate outstanding bill list by filtering the unpaid ones from "all transactions report".
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="20">
+                <Accordion.Header className = "accordion-header">Q. Where can I see my balance sheet?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Balance Sheet is available in the Reports section.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="21">
+                <Accordion.Header className = "accordion-header">Q. How can I check creditor/debitor list?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Check all parties report in report section and filter for receivables or payables based on your requirement.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="22">
+                <Accordion.Header className = "accordion-header">Q. How to add packaging charge in bill?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, you can add any amount of "Additional Charge" in the bill. You can enable it in transaction settings.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="23">
+                <Accordion.Header className = "accordion-header">Q. Can we do Item grouping in TimeGST?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, TimeGST lets you create different categories for your items. This can be enabled in your item settings.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="24">
+                <Accordion.Header className = "accordion-header">Q. Can I take invoice print with my Label Printer?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, To print an invoice with a Label printer, you can enable it in the "Print" option available in Settings.
+                  </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="25">
+                <Accordion.Header className = "accordion-header">Q. Can I reset my invoice number back to 1?  </Accordion.Header>
+                  <Accordion.Body className="accordion-content">
+                  Yes, To reset your invoice number & other transactions, click on “Close Financial Year” from utilities. Under “Restart Transaction Numbers”, change prefixes for the invoice. This will reset your invoice number.
+                  </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>

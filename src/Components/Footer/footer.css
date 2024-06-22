@@ -1,0 +1,269 @@
+.Footer{
+    width: 100%;
+    height: 400px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 300px;
+    background-image: url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-102387.jpg");
+    background-repeat: repeat;   
+    background-position: center;
+}
+.logoDiv2{
+    margin-left: 5px;
+}
+.logoDiv2 .i1{
+    margin-left: 195px;
+}
+h6{
+    color: #6f6c7f;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.larger-icon {
+    font-size: 20px; 
+    margin-top: 30px;
+    color: #6f6c7f; 
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.larger-icon1 {
+    font-size: 20px; 
+    color: #6f6c7f; 
+    margin-left: 20px;
+}
+.larger-icon2 {
+    font-size: 20px; 
+    color: #6f6c7f; 
+    margin-left: 20px;
+}
+.larger-icon3 {
+    font-size: 18px; 
+    color: #6f6c7f; 
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+.Address{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.OA{
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 70px;
+}
+.QL{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.add{
+    color: #6f6c7f;
+    margin-bottom: 1rem;
+    line-height: 35px;
+}
+.QuickLinks{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.navLink1{
+    color: #6f6c7f;
+    margin-left: -25px;
+    line-height: 40px;
+}
+.link1{
+    margin-top: 30px;
+    margin-left: -115px;
+}
+.link2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last{
+    margin-left: -100px;
+}
+.run{
+    line-height: 25px;
+    margin-top: -140px;
+    font-size: 14px;
+    background: white;
+}
+.date{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-weight: 400;
+    color: #6f6c7f;
+}
+.copy{
+    margin-left: -780px;
+    margin-top: 600px;
+    color: #6f6c7f;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Styles for screens 768px and below */
+@media only screen and (max-width: 768px) {
+    .Footer {
+        background-image: url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-102387.jpg");
+    background-repeat: repeat;   
+    background-position: center;
+        /* width: 100px; */
+        height: auto;
+        flex-direction: column;
+        margin-top: 200px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logoDiv2 {
+        margin: 0 auto 20px auto;
+    }
+
+    .logoDiv2 .i1 {
+        margin: 0 auto;
+    }
+
+    h6 {
+        color: #6f6c7f;
+        margin: 5px 0;
+    }
+
+    .larger-icon, .larger-icon1, .larger-icon2 {
+        font-size: 20px;
+        color: #6f6c7f;
+        margin: 10px auto;
+    }
+
+    .larger-icon {
+        margin-bottom: 30px;
+    }
+
+    .Address {
+        margin: 20px auto;
+    }
+
+    .OA {
+        font-weight: 600;
+        margin: 20px 0;
+    }
+
+    .larger-icon3 {
+        font-size: 16px;
+        color: #6f6c7f;
+        margin-bottom: 18px;
+    }
+
+    .add {
+        color: #6f6c7f;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+
+    .QuickLinks {
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link1, .link2, .last {
+        margin: 10px 0;
+    }
+
+    .navLink1 {
+        color: #6f6c7f;
+        line-height: 1.5;
+    }
+
+    .run {
+        line-height: 1.5;
+        margin-top: 20px;
+        font-size: 14px;
+        background: white;
+        padding: 10px;
+    }
+
+    .date {
+        font-size: 16px;
+        margin-top: 15px;
+        font-weight: 400;
+        color: #6f6c7f;
+    }
+
+    .copy {
+        margin: 20px 0;
+        color: #6f6c7f;
+        font-size: 16px;
+    }
+}
+
+
+/* Styles for screens 576px and below */
+@media only screen and (max-width: 576px) {
+    .Footer {
+        background-image: url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-102387.jpg");
+    background-repeat: repeat;   
+    background-position: center;
+        height: auto;
+        width: 100px;
+        margin-top: 150px;
+        padding: 20px;
+        text-align: center;
+    }
+    .logoDiv2 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    h6 {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .larger-icon, .larger-icon1, .larger-icon2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .larger-icon {
+        margin-bottom: 40px;
+    }
+    .Address {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .QuickLinks {
+        margin-left: 0;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link1, .link2, .last {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .run {
+        margin-top: 15px;
+        font-size: 14px;
+        background: none;
+    }
+    .date {
+        margin-top: 15px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .copy {
+        margin-left: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+
+
+
+/*# sourceMappingURL=footer.css.map */

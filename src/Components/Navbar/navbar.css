@@ -1,0 +1,150 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(234, 236, 239, 0.904);
+}
+
+.logoDiv {
+  margin-left: 100px;
+}
+
+.navLists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.navItem {
+  margin-left: 30px;
+}
+
+.navLink {
+  color: #081340;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: var(--SecondaryColor);
+}
+
+.navToggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.closeButton {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0.5rem;
+  }
+
+  .logoDiv {
+    margin-left: 0;
+  }
+
+  .navLists {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .navLists.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .navItem {
+    margin: 10px 0;
+  }
+
+  .navToggle {
+    display: block;
+  }
+
+  .closeButton {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logoDiv {
+    margin: 0 auto;
+  }
+
+  .navLists {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .navItem {
+    margin: 5px 0;
+  }
+
+  .navLink {
+    font-size: 0.8rem;
+  }
+}

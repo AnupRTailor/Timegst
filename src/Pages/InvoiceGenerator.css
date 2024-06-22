@@ -1,0 +1,468 @@
+.i1det{
+    margin-top: 100px;
+    font-size: 36px; 
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #36324a;
+}   
+.Invoiceedit{
+	color: #2C3E50;
+	font-size : 18px;
+	margin-bottom: 10px;
+	letter-spacing : 2px;
+	font-weight: bold;
+	text-align : center;
+}
+.process-wrapper{
+	margin:auto;
+	max-width: 1080px;
+}
+.progress-bar-container{
+	position: relative;
+	width: 90%;
+	margin:auto;
+	height: 100px;
+	margin-top:59px;
+}
+.progress-bar-container ul{
+	padding : 0;
+	margin: 0;
+	padding-top: 15px;
+	z-index: 9999;
+	position:absolute;
+	width: 100%;
+	margin-top: -40px;
+}
+.progress-bar-container li:before{
+	content : "";
+	display:block;
+	margin : auto;
+	width : 30px;
+	height : 30px;
+	border-radius: 50%;
+	border : solid 2px #aaa;
+	transition: all ease 0.3s;
+}
+.progress-bar-container li.active::before,
+.progress-bar-container li:hover::before{
+	background: #36324a;
+}
+.progress-bar-container li{
+	list-style: none;
+	margin-left: 100px;
+	float : left;
+	width : 20%;
+	text-align : center;
+	color: #333333;
+	font-size : 16px;
+	cursor: pointer;
+	font-weight: 900;
+	transition: all ease 0.2s;
+	vertical-align: bottom;
+	height : 59px;
+	position : relative;
+}
+.progress-bar-container li .step-inner{
+	position: absolute;
+	width : 100%;
+	bottom : 0;
+	font-size : 16px;
+}
+.progress-bar-container li.active,
+.progress-bar-container li:hover{
+	color : #36324a;
+}
+.progress-bar-container li:after{
+	content: "";
+	display: block;
+	width : 5px;
+	height : 5px;
+	margin : auto;
+	border: solid 7px #777;
+	border-radius: 50%;	
+	margin-top: 40px;
+	box-shadow: 0 2px 13px -1px rgba(0,0,0,0.3);
+	transition : all ease 0.2s;
+}
+.progress-bar-container:hover::after{
+	background: #36324a;
+}
+.progress-bar-container:active::after{
+	background: #36324a;
+}
+.progress-bar-container .line{
+	width : 62%;
+	background: #ccc;
+	height: 5px;
+	position:absolute;
+	left: 20%;
+	top : 50px;
+	z-index: 1;
+	border-radius: 50px;
+	transition: all ease 0.9s;
+}
+.progress-bar-container .line-progress{
+	content:"";
+	width : 3%;
+	height : 100%;
+	background : #36324a;
+	background: linear-gradient(to right , #36324a 0%, #36324a 100%);
+	position: absolute;
+	z-index: 2;
+	border-radius: 50px;
+	transition: all ease 0.9s;
+}
+.progress-content-section{
+	width: 90%;
+	margin: auto;
+	background: #f3f3f3;
+	border-radius: 4px;
+	box-shadow: 0 2px 13px -1px rgba(0,0,0,0.3);
+}
+.progress-content-section .section-content{
+	padding: 30px 40px;
+	text-align: center;
+}
+
+.section-content .invoice{
+	color : white;
+	border-radius: 5px;
+	font-size: 20px;
+	border-color: white;
+}
+.invoice .btn-primary{
+	font-size: 14px;
+	background: #5b39c9;
+	border: 0.5px solid #5b39c9;
+	position: relative;
+	padding: 16px 30px;
+	width: 20%;
+	margin-top: -50px;
+	border-radius: 5px;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.invoice .btn-primary:hover {
+    background: #007bff; 
+	border-color: #007bff;
+    color: #ffffff; 
+}
+.invoice .btn-primary1{
+	border-radius: 25px;
+	padding: 12px 30px;
+	border : 1px solid #C5C5F1;
+	color: white;
+	font-weight: bold;
+	margin-left: -190px;
+	background: #C5C5F1;
+	margin-top : 150px;
+}
+.section-content .preview{
+	justify-content: center;
+	align-items:center;
+	height: 1000px;
+}
+#cardig{
+	color: #007bff;
+	height: 550px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 0.25rem;
+	margin-top: 10px;
+	margin-bottom: 0.75rem;
+	font-size: 17px;
+	margin-left: 250px;
+}
+.card-title{
+	margin-left: 10px;
+}
+.invoice1{
+	color: red;
+	margin-top : 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 1.2;
+	text-align: right;
+}
+.date1 , .duedate{
+	margin-bottom: 0;
+	line-height: 1.5;
+	color: black;
+	font-weight: 500;
+	font-size: 13px;
+	text-align : right;
+	padding: 0;
+}
+.invoiceto{
+	color : #6c757d;
+	text-align: left;
+	line-height: 1.5;
+	font-weight : 500;
+	margin-top: 20px;
+	font-size: 13px;
+}
+.invoicetable .table{
+	width: 100%;
+	margin-bottom : 12rem;
+	background-color: transparent;
+	color: #212529;
+}
+.tblnm{
+	text-align : center;
+	border-bottom: 2px solid #dee2e6;
+	padding : 0.75rem;
+	border-top: 1px solid #dee2e6;
+	font-size: 13px;
+	line-height: 1.5;
+	border-spacing : 2px;
+	font-weight: bold;
+}
+.invoicetable1 .table{
+	width: 80%;
+	margin-top: -130px;
+	border-bottom: 2px solid #dee2e6;
+	border-top : 1px solid #dee2e6;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	height: 10%;
+}
+.pn{
+	margin-left: 35px;
+	margin-top: 25px;
+}
+.tblnm1{
+	border-bottom: 2px solid #dee2e6;
+	padding : 0.75rem;
+	border-top: 1px solid #dee2e6;
+	font-size: 13px;
+	width: 100%;
+	text-align: left;
+	line-height: 2.5;
+	border-spacing : 2px;
+	font-weight: 900;
+}
+.tblnm2{
+	border-bottom: 2px solid #dee2e6;
+	padding : 0.75rem;
+	border-top: 1px solid #dee2e6;
+	font-size: 20px;
+	width: 100%;
+	text-align: left;
+	line-height: 1.5;
+	border-spacing : 2px;
+	font-weight: 500;
+}
+.btn-primary5{
+	width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 12px 22px;
+    margin: 10px 20px;
+}
+.btn-primary5:hover{
+	background: #5b39c9;
+	transition: .3s all linear;
+}
+.btn-primary6{
+	width : 100px;
+	padding: 12px 22px;
+	background : #36324a;
+	margin : 10px 20px;
+	font-weight: bold;
+	color:  white;
+	border-radius: 25px;
+}
+.comdet{
+	text-align: left;
+	margin-top : 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #6c757d;
+}
+.comname{
+	margin-left: -750px;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 15px;
+}
+.Inno{
+	margin-left: 200px;
+	margin-top: -75px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.form-control1{
+	margin-left : -472px;
+	width: 45%;
+	height  : 45px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	font-size : 14px;
+}
+.input-group-text{
+	width: 4.5%;
+	margin-left: 480px;
+	background-color : #e9ecef;
+	height: 45px;
+}
+.form-control2{
+	margin-left : 507px;
+	margin-bottom: -200px;
+	width: 40%;
+	height  : 45px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	font-size : 14px;
+}
+.innoinput{
+	margin-top: -45px;
+}
+.comadd1{
+	margin-top : 25px;
+	margin-left: -735px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.comlogo{
+	font-size : 14px;
+	line-height: 20px;
+	margin-top: -100px;
+}
+.form-control3{
+	margin-left : -470px;
+	width: 45%;
+	height  : 70px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	font-size : 14px;
+}
+.form-control-file1{
+	background: white;
+	margin-left : 480px;
+	padding: 13px 18px;
+	color: #6c757d;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	width : 44%;
+	height: 60px;
+}
+.Indate{
+	margin-right: 80px;
+	margin-top: -75px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.form-control4{
+	margin-left : 470px;
+	margin-top: 38px;
+	width: 45%;
+	height  : 45px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	font-size : 14px;
+}
+.form-control5{
+	margin-left : 470px;
+	margin-top: 15px;
+	width: 45%;
+	height  : 45px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border : 1px solid  #ccc;
+	font-size : 14px;
+}
+.table-bordered1{
+	margin-top: 50px;
+	border : 1px solid #dee2e6;
+	border-color: #e2e6fb;
+	height: 45px;
+	background-color: transparent;
+}
+.duedate1{
+	margin-bottom: 0;
+	line-height: 0.5;
+	margin-top: -100px;
+	color: #6c757d;
+	font-weight: 500;
+	font-size: 13px;
+	margin-left: 140px;
+}
+.ANR{
+	margin-top: 25px;
+	margin-left: -720px;
+}
+.btn-primary7{	
+	width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 12px 22px;
+    margin: 10px 200px;
+}
+.inclucegst{
+	margin-left : -550px;
+	margin-top : 40px;
+	color : #6c757d;
+	font-size : 20px;
+}
+.checked{
+	width : 100%;
+	margin-left: -365px;
+}
+.gst{
+	width: auto;
+	height : auto;
+}
+.gstper{
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 0;
+}
+.gsttxt{
+	margin-top: -29px;
+}
+.form-control6{
+	margin-left : 570px;
+	width: 35%;
+	height  : 45px;
+	border-radius: 5px;
+	border : 1px solid  black;
+	font-size : 14px;
+}
+.gsttotal{
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: -30px;
+}
+.gsttot{
+	margin-top: -20px;
+}
+.form-control7{
+	text-align: start;
+	background-color: #fff;
+	margin-left : 570px;
+	margin-top: -20px;
+	width: 35%;
+	height  : 45px;
+	border-radius: 5px;
+	border : 1px solid  black;
+	font-size : 14px;
+}
+.gst1{
+	margin-top: 30px;
+}
+.enternext{
+	margin-top: 50px;
+}
